@@ -1,5 +1,5 @@
 setInterval(function() {
-  var eles = document.getElementsByName('ft');
+  var eles = document.getElementsByClassName('ft');
   for (var i = 0; i < eles.length; i++) {
     eles[i].style.color = getRandomColor();
   }
